@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BackgroundTown Influencer Portal</title>
+  <link rel="stylesheet" href="./styles2.css">
+  <!-- Import fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <img class="backgroundtown-logo" src="./backgroundtown.png" alt="">
+
+  <form action="">
+    <div class="title padding-inline">
+      <h1>Influencer/Tester Image Information</h1>
+      <p>Fill out the form carefully.</p>
+    </div>
+
+    <div class="section-1 padding-inline">
+      <p class="small-txt"><strong>All fields marked with * are required and must be filled.</strong></p>
+      <div class="width">
+        <div class="input-wrapper">
+          <label for="company">Company <span>*</span></label>
+          <input type="text" id="company">
+        </div>
+        <div class="input-wrapper empty-space"></div>
+      </div>
+      <div class="section-1-input-wrapper">
+        <div class="name-field">
+          <label>Name</label>
+          <div class="horizontal">
+            <div class="email-field">
+              <input type="text" id="first_name">
+              <label class="small-label" for="first_name">First Name</label>
+            </div>
+            <div class="email-field">
+              <input type="text" id="last_name">
+              <label class="small-label" for="last_name">Last Name</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-wrapper">
+          <label for="email">E-mail</label>
+          <input type="text" id="email" placeholder="ex: myname@example.com">
+        </div>
+      </div>
+    </div>
+
+    <div class="section-2">
+      <p class="title" style="border: none">How I got the shot:</p>
+      <div class="inputs padding-inline">
+        <div class="group-1">
+          <div class="input-wrapper">
+            <label for="backdrop-name">Backdrop Name:</label>
+            <input type="text" id="backdrop-name">
+          </div>
+          <div class="input-wrapper">
+            <label for="size-and-material">Backdrop Size and Material:</label>
+            <input type="text" id="size-and-material">
+          </div>
+          <div class="input-wrapper">
+            <label for="lens">Lens:</label>
+            <input type="text" id="lens">
+          </div>
+          <div class="input-wrapper">
+            <label for="camera">Camera:</label>
+            <input type="text" id="camera">
+          </div>
+          <div class="input-wrapper">
+            <label for="lighting">Lighting:</label>
+            <input type="text" id="lighting">
+          </div>
+        </div>
+        <div class="input-wrapper">
+          <label for="shoot-description">Please include a brief paragraph about the shoot:</label>
+          <textarea name="shoot-description" id="shoot-description" style="width: 100%" rows="5"></textarea>
+        </div>
+        <div class="g1-input-wrapper" style="margin-top: 14px">
+          <label for="dropbox-link">Dropbox link to images or video: *</label>
+          <input type="text" id="dropbox-link">
+        </div>
+        <p class="small-txt" style="margin-top: 30px;">By submitting the form, you signify that American Color Imaging has full usage rights to the images linked through this form.</p>
+        <button>Submit</button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+html {
+  background: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px;
+  font-family: "Inter", sans-serif;
+}
+
+.padding-inline {
+  padding-inline: 50px;
+}
+
+.backgroundtown-logo {
+  height: 140px;
+  margin-bottom: 35px;
+}
+
+form {
+  background-color: #E7E7E7;
+  border-radius: 3px;
+  padding-block: 45px;
+  box-shadow: 0 4px 4px rgba(87, 100, 126, 0.21);
+  max-width: 725px;
+  width: 100%;
+  margin: 72px auto;
+  margin-top: 0;
+}
+form .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+form .input-wrapper label {
+  font-size: 12px;
+  margin-block-end: 8px;
+}
+form .input-wrapper label span {
+  color: red;
+}
+form .input-wrapper input {
+  background-color: white;
+  border: 1px solid #b8bdc9;
+  height: 23px;
+  border-radius: 4px;
+  width: 100%;
+}
+form .title {
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+form .title h1 {
+  font-weight: 600;
+  line-height: 1.45;
+  color: #2c3345;
+  font-size: 22px;
+  margin: 0;
+}
+form .title p {
+  font-size: 12px;
+  color: #57647e;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+form .section-1 {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 50px;
+}
+form .section-1 p {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+}
+form .section-1 .section-1-input-wrapper {
+  display: flex !important;
+  align-items: start;
+  justify-content: center;
+  padding-block: 25px;
+}
+@media only screen and (max-width: 600px) {
+  form .section-1 .section-1-input-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+form .name-field p {
+  text-align: left !important;
+  margin-top: 0;
+}
+form .name-field .horizontal {
+  display: flex;
+  width: 90%;
+  gap: 10px;
+}
+form .name-field .horizontal input {
+  background-color: white;
+  border: 1px solid #b8bdc9;
+  height: 23px;
+  border-radius: 4px;
+  width: 100%;
+}
+form .name-field .horizontal label {
+  font-size: 10px !important;
+  font-weight: 300px;
+  color: #2c3345;
+}/*# sourceMappingURL=styles.css.map */

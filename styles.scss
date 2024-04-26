@@ -1,0 +1,134 @@
+html {
+  background: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px;
+  font-family: "Inter", sans-serif;
+}
+
+.padding-inline {
+  padding-inline: 50px;
+}
+
+.backgroundtown-logo {
+  height: 140px;
+  margin-bottom: 35px;
+}
+
+form {
+  background-color: #E7E7E7;
+  border-radius: 3px;
+  padding-block: 45px;
+  box-shadow: 0 4px 4px rgba(87, 100, 126, .21);
+  max-width: 725px;
+  width: 100%;
+  margin: 72px auto;
+  margin-top: 0;
+
+
+  // input styles for all form text fields
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    label {
+      font-size: 12px;
+      margin-block-end: 8px;
+
+      span {
+        color: red;
+      }
+    }
+
+    input {
+      background-color: white;
+      border: 1px solid #b8bdc9;
+      height: 23px;
+      border-radius: 4px;
+      width: 100%;
+    }
+  }
+
+  .title {
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    h1 {
+      font-weight: 600;
+      line-height: 1.45;
+      color: #2c3345;
+      font-size: 22px;
+      margin: 0;
+    }
+
+    p {
+      font-size: 12px;
+      color: #57647e;
+      font-weight: 500;
+      line-height: 1.6;
+      margin-top: 5px;
+    }
+  }
+
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 50px;
+
+    p {
+      text-align: center;
+      font-size: 11px;
+      font-weight: 400;
+    }
+
+    .section-1-input-wrapper {
+      display: flex !important;
+      align-items: start;
+      justify-content: center;
+      padding-block: 25px;
+
+      @media only screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  .name-field {
+
+    p {
+      text-align: left !important;
+      margin-top: 0;
+    }
+
+    .horizontal {
+      display: flex;
+      width: 90%;
+      gap: 10px;
+
+      input {
+        background-color: white;
+        border: 1px solid #b8bdc9;
+        height: 23px;
+        border-radius: 4px;
+        width: 100%;
+      }
+
+      label {
+        font-size: 10px !important;
+        font-weight: 300px;
+        color: #2c3345
+      }
+    }
+  }
+}
